@@ -15,7 +15,7 @@ let package = Package(
     dependencies: [
         .package(name: "Realm", url: "https://github.com/realm/realm-cocoa.git", from: "5.4.4"),
         .package(url: "https://github.com/Alamofire/Alamofire.git", .upToNextMajor(from: "5.2.0")),
-        .package(url: "https://github.com/aripratom/Core", .upToNextMajor(from: "1.0.0")),
+        .package(url: "https://github.com/aripratom/Core", .branch("main")),
         .package(url: "https://github.com/square/Cleanse", .upToNextMajor(from: "4.2.6")),
         .package(url: "https://github.com/ReactiveX/RxSwift", .upToNextMajor(from: "6.5.0"))
     ],
